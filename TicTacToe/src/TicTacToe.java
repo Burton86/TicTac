@@ -7,7 +7,7 @@ import java.util.Scanner;
         static String[] board;
         static String turn;
 
-        public static void main(String[] args) {
+        public static void playTicTacToe() {
             in = new Scanner(System.in);
             board = new String[9];
             turn = "X";
@@ -113,6 +113,8 @@ import java.util.Scanner;
             for (int a = 0; a < 9; a++) {
                 board[a] = String.valueOf(a+1);
             }
+
         }
+
 
     }
